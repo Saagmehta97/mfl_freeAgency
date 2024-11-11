@@ -1,7 +1,7 @@
 # mfl_freeAgency
 
-I am pulling roster data from MFL app and will use the data to select best free agent on the waiver wire
-
+ - I am pulling roster data from MFL app and will use the data to select best free agent on the waiver wire. 
+ - I want to use this data to help make decisions during fantasy football season.
 
 # MVP: 
  - Use API to grab player data
