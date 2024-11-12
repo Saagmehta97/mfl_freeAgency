@@ -8,7 +8,7 @@
  - Use react to render reusable components for players
  
 
-# Stretch Goals
+# To Do: 
  - Pull all player data for next season
  - Add page for potential trade analysis
  - Add login / sign up page
