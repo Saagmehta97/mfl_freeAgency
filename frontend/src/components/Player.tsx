@@ -8,7 +8,7 @@ interface PlayerProps {
   score?: number;
 }
 
-const Player: React.FC<PlayerProps> = ({ id, name, position, team, score }) => {
+const Player = ({ id, name, position, team, score }: PlayerProps): JSX.Element => {
   return (
     <div className="player-card">
       <h3>{name}</h3>

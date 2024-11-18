@@ -7,9 +7,9 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS if accessing the API from a different domain
 cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 
-# Replace with your actual league ID and franchise ID
+
 LEAGUE_ID = '62247'
-FRANCHISE_ID = '0008'  # Your franchise ID
+FRANCHISE_ID = '0008'  
 
 @cache.cached(timeout=86400)
 def fetch_player_details(status='ALL'):
